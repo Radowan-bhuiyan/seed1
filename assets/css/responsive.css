@@ -1,0 +1,125 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {}
+
+@media only screen and (min-width:767px) and (max-width: 991px) {}
+
+@media only screen and (min-width:767px) and (max-width: 1199px) {
+	.res {
+		margin: 27px 0px;
+	}
+}
+
+@media only screen and (min-width:480px) and (max-width:991px) {
+	h3.middle-color {
+	    margin: 20px 10px;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:991px) {
+	.main-body .header_area {
+		padding: 0px;
+	}
+	.nav-text li img {
+		max-width: 85px;
+	}
+	.book {
+		padding-top: 35px;
+	}
+	.footer-area a {
+		color: #FFFFFF;
+	}
+	.img-flex{
+	  display: flex;
+	}
+	.social-bottom,
+	.percent{
+	    text-align: center;
+	}
+	
+
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+	html {
+		font-size: 50.5% !important;
+	}
+	.text-section p {
+		padding-bottom: 10px;
+	}
+	.information{
+		margin: 15px 0px;
+	}
+	.middle-content.pl-4 {
+    margin-left: 9px;
+	}
+
+	.nyteher-content p {
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 1.5rem !important;
+	    font-weight: 300;
+	}
+
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 991px) and (max-width: 1900px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width:992px) and (max-width:1199px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+	.hero-text-box.text-center {
+		padding: 28px;
+	}
+	nav ul li {
+		display: inline-block;
+		padding-right: 7px;
+	}
+	nav li a {
+    font-size: 1.7rem;
+ 
+  } 
+  .nav-text {
+		display: flex;
+	    width: 100%;
+	    text-align: left!important;
+	}
+	.nav-text li img {
+    max-width: 70px;
+}
+}
+
+@media only screen and (min-width:300px) and (max-width:479px) {
+	.nav-text {
+		display: flex;
+	    width: 100%;
+	    text-align: left!important;
+	}
+
+/*		nav ul li  a{
+		display: inline-block;
+		padding-right: 5px;
+	}*/
+	.main-body h1 {
+    font-size: 2.8rem;
+}
+.percent h3 {
+
+    font-size: 2rem;
+
+}
+}
+
+@media only screen and (min-width:300px) and (max-width:400px) {
+
+}

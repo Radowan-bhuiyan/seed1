@@ -1,0 +1,819 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+  1. Theme Default Css
+  -------------------------------------------------------------------*/
+
+
+/*
+==========================================
+  fonts
+==========================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Ultra&display=swap');
+
+
+@font-face {
+    font-family: 'Industry';
+    src: url('../fonts/Industry-Black.ttf');
+    src: url('../fonts/Industry-BlackItalic.ttf');
+    src: url('../fonts/Industry-Bold.ttf');
+    src: url('../fonts/Industry-BoldItalic.ttf');
+    src: url('../fonts/Industry-Book.ttf');
+    src: url('../fonts/Industry-BookItalic.ttf');
+    src: url('../fonts/Industry-Demi.ttf');
+    src: url('../fonts/Industry-DemiItalic.ttf');
+    src: url('../fonts/Industry-Light.ttf');
+    src: url('../fonts/Industry-LightItalic.ttf');
+    src: url('../fonts/Industry-Medium.ttf');
+    src: url('../fonts/Industry-Medium.ttf');
+}
+/*
+==========================================
+   1. Theme Default CSS
+   2. Index CSS
+   3. Index1 CSS
+   4. Index2 CSS
+==========================================
+*/
+
+html {
+  font-size: 62.5%;
+  /*font-size: 10px;*/
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-family: 'Industry';
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+a,
+i,
+button,
+img,
+input,
+span,
+*:before,
+*:after {
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.form-control:focus {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+a:focus {
+  color: inherit;
+  outline: medium none;
+  transform: scale(1);
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.btn,
+.button-btn {
+  display: inline-block;
+  padding: 5px 14px;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  font-size: 1.4rem;
+  border: none;
+  transition: .3s;
+  margin: 10px 0px;
+}
+
+.section-padding {
+  padding: 5rem 0px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-150 {
+  padding-bottom: 150px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pt-20 {
+  margin-bottom: 20px;
+}
+
+.ptb-60 {
+  padding: 60px 0px;
+}
+
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.content-space {
+  padding: 5rem 0rem;
+}
+
+.content-top-space {
+  margin-top: 3.5rem;
+}
+
+
+/*
+==========================================
+     Index CSS Start
+==========================================
+*/
+
+
+/*header-top*/
+
+.header_area {
+  background: linear-gradient(rgba(4, 4, 4, 0), rgba(4, 4, 4, 0)), url(../img/Mask1.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 18px;
+}
+
+nav li a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+nav .ul a {
+  text-decoration: underline;
+}
+
+.left-text li a {
+  text-decoration: none;
+}
+
+.hero-content {
+  padding: 55px 0px;
+}
+
+.hero-text-box img {
+  max-width: 65%;
+}
+
+.header_area input::placeholder {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.header_area .form-control,
+input[type=button] {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.5;
+  background: rgba(62, 62, 62, 0.47);
+  margin-bottom: 24px;
+  border-radius: 1px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  z-index: 1;
+  border: transparent;
+}
+
+input[type=button] {
+  background-image: linear-gradient(#FFB353, #F5D086);
+  font-weight: 600;
+  color: #000;
+   font-size: 2rem;
+
+}
+
+.header_area .hero-content a {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #D5D5D5;
+  text-decoration: underline;
+}
+
+.text-area {
+  background: #292626;
+}
+
+.text-area p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.footer-area {
+  background: #151515;
+  position: relative;
+  width: 100%;
+}
+
+.footer-area:before {
+  position: absolute;
+  content: "";
+  background: url(../img/seed.png) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 250px;
+  height: 156px;
+  right: 20px;
+  top: -25px;
+}
+
+.discovery {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.discovery li {
+  padding: 4px 0px;
+}
+
+.icon {
+  flex: 0 0 45px;
+  align-items: center;
+}
+
+.discovery .icon a {
+      font-weight: 300;
+    font-size: 1.5rem !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discovery-content a {
+  display: block;
+  letter-spacing: 1px;
+}
+
+.footer-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.footer-bottom a {
+  letter-spacing: 1.3px;
+}
+
+.footer-area a {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+/*
+==========================================
+     Index CSS End
+==========================================
+*/
+
+
+/*
+==========================================
+     Index1 CSS Start
+==========================================
+*/
+
+.nma a {
+  text-decoration: none;
+}
+
+.nma h1,
+.nma h2,
+.nma h3,
+.nma h4,
+.nma h5,
+.nma h6 {
+  color: #000;
+}
+
+.header_area h3 {
+  color: #fff;
+}
+
+#site-nav {
+  padding: 10px 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav-text {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-text li img {
+  max-width: 120px;
+}
+
+.nav-text li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.circle {
+  padding-top: 20px;
+  color: #6f6a6aa8;
+  word-spacing: 10px;
+}
+
+
+/*Main Body*/
+
+.main-body h1 {
+  letter-spacing: 2.3px;
+  color: #161616;
+  text-transform: uppercase;
+  font-size: 3.5rem
+}
+
+
+/*header*/
+
+.main-body .header_area {
+  padding: 25px;
+}
+
+.main-body h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 1.8px;
+}
+
+.main-body .header_area .nua-text h4 {
+  color: #fff;
+}
+
+.main-body .header_area .nua-text h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: 1.8px;
+}
+
+.main-body .header_area .nua-text p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color:#c3c3c3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-body .header_area input {
+  margin: 0px;
+  text-transform: uppercase;
+  font-family: 'Industry';
+  font-weight: 300;
+
+
+}
+
+.main-body .header_area .middle-content li {
+  display: inline-block;
+  padding-right: 18px;
+}
+
+.main-body .header_area .middle-content a {
+  font-size: 1.4rem;
+  color: #efebebd9;
+}
+
+.main-body .header_area a span {
+  font-size: 1.3rem;
+  color: #deddddd6;
+  ;
+}
+
+.main-body .middle-content {
+  padding: 24px 0px;
+}
+
+.book,
+.aktuellt {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.aktuellt {
+  border-bottom: 1px solid #0000004D;
+  margin-top: 10px;
+  padding-bottom: 8px;
+  align-items: center;
+}
+
+.aktuellt h2 {
+  font-size: 3.5rem;
+  padding-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.aktuellt h6 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+
+/*price-table */
+
+.blog-item {
+  box-shadow: 0px 0px 15px #ddd;
+  color: #000;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+article.blog-details {
+  padding: 14px 14px;
+}
+
+article ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+article ul li a {
+  font-size: 1.4rem;
+}
+
+article.blog-details h4 {
+  font-size: 2.2rem;
+}
+
+article.blog-details p {
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+article.blog-details h4 {
+  font-size: 2.2rem;
+}
+
+.button-btn {
+  text-transform: uppercase;
+  background-image: linear-gradient(#000000, #4A4A4A);
+  text-align: center;
+  width: 100%;
+}
+
+article .button-btn {
+  font-size: 2.2rem;
+}
+
+.blog-img .button-btn {
+  margin: 0px 0px;
+  box-shadow: 0px 0px 4px #0000007D;
+  background-image: linear-gradient(#FFB353, #F5D086);
+  border-radius: 5px;
+}
+
+.price-table .col-xl-4 {
+  margin: 35px 0px;
+}
+
+.blog-btn {
+  position: absolute;
+  width: 44%;
+  margin: 12px 12px;
+}
+
+.kommer .button-btn {
+  background-image: linear-gradient(#232324, #7A7A7A);
+}
+
+.stanger .button-btn {
+  background-image: linear-gradient(#CC0909, #660505);
+}
+
+.button-btn.btn-bg {
+  background: #5151517D;
+}
+
+.price-table .book h3 {
+  margin-top: 5px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+h3.book-hover {
+  font-weight: 300;
+  color: #FBBD65;
+}
+
+.ladda h3 {
+  font-family: 'Industry';
+  font-size: 2.8rem;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+}
+
+
+/*
+==========================================
+     Index1 CSS End
+==========================================
+*/
+
+/*
+==========================================
+     Index2 CSS Start
+==========================================
+*/
+
+
+.foretagets h1,
+.foretagets h2,
+.foretagets h3 {
+  color: #000;
+}
+
+.foretagets .header_area {
+  background: none;
+}
+
+.foretagets p {
+  color: #000;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.foretagets h2 {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.foretagets .main-body .header_area input {
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 60%;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.foretagets .information {
+  border: 1px solid #ddd;
+  padding: 25px 16px;
+  position: relative;
+}
+
+.information h2 {
+  position: absolute;
+  top: -11px;
+  right: 12px;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.information li {
+  display: inline-block;
+}
+
+.information p {
+  font-size: 1.9rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.information h4 {
+  font-size: 2rem;
+  color: #000;
+}
+
+.middle-border {
+  border-bottom: 2px solid #312424;
+  margin-bottom: 10px;
+}
+
+div .tab-content {
+  border: 1px solid #00000029;
+  border-top: 0;
+  padding: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #000;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  font-weight: 600;
+}
+
+.tab-content p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 10px 0px;
+}
+
+.tab-content a {
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.foretagets .main-body .tag a,
+.foretagets .main-body .tag a span {
+  color: #2B52AE;
+  letter-spacing: 1px;
+}
+.foretagets .main-body .tag a span {
+  padding-right: 2px;
+}
+
+p.p-border {
+  border-top: 1px solid #00000029;
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+.twenty h2 {
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  margin: 10px 0px;
+}
+
+.twenty h2:first-child {
+  letter-spacing: 1.5px;
+  margin: 10px 0px;
+  font-weight: 900;
+  font-size: 7rem;
+  color: #FBBD65;
+}
+
+.percent h3 {
+  display: inline-block;
+  border: 2px solid #FBBD65;
+  padding: 15px 50px;
+  font-size: 2.2rem;
+  letter-spacing: 1.8px;
+  margin: 10px 0px;
+  position: relative;
+}
+
+.percent h3:last-child {
+  border: 2px solid #000;
+}
+
+h3.middle-color::after {
+  content: '';
+  position: absolute;
+  background: #FBBD65;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 54%;
+  z-index: -1;
+}
+
+.social-bottom li {
+  display: inline-block;
+  padding-left: 12px;
+}
+
+.social-bottom {
+  width: 100%;
+}
+
+.social-bottom li a {
+  font-size: 2rem;
+  color: #000;
+}
+.social-bottom li a i {
+    font-weight: bold;
+}
+
+.social-bottom li:first-child a {
+  color: #FBBD65;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-right: 4px;
+}
+
+.nyheter h2 {
+  position: relative;
+  font-size: 2.3rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.nyheter h2::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 1px;
+  background: #707070;
+  top: -20px;
+  left: 20%;
+}
+
+.nyteher-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+}
+
+/*
+==========================================
+     Index2 CSS End
+==========================================
+*/
